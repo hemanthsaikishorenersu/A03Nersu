@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>Your Choice</title>
+	<link rel="stylesheet" type="text/css" href="A01Nersu.css">
+	
+
+</head>
+<body class="sai01">
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a class="active" href="App.html">Your Choice</a></li>
+	<li><a href="contact1.html">Contacts</a></li>
+	<li><a href="guestbook">guestbook</a></li>
+</ul>
+<h1>Meet your Doctor here</h1>
+<p id="appointment">Please Enter your Name</p>
+<input type="text" name="no">
+<p>Gender</p>
+<form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+</form>
+
+<p id="select1">Find the doctor:
+<select>
+<option>checkout here:</option>
+	<option value="morning">Hemanth</option>
+	<option value="afternoon">Sai</option>
+	<option value="evening">Kishore</option>
+</select>
+<p id="select">Schedule your appointment here:
+<select>
+<option>Available timings:</option>
+	<option value="morning">9.00am - 11.00am</option>
+	<option value="afternoon">1.00pm - 4.00pm</option>
+	<option value="evening">6.00pm - 9.00pm</option>
+</select>
+<br>
+<br>
+
+	<p>If you wish to pay your fee then proceed to payment
+	</p><form>
+  <input type="radio" name="card" value="Credit card" checked> Credit card<br>
+  <input type="radio" name="card" value="Debit card"> debiit card<br>
+  <input type="radio" name="card" value="other"> Other
+</form>
+	<button onclick="calculate(no*cost)"> submit </button>
+
+
+ <div id="footer"><hr>Thank u for visting this page....Have a good day</div>
+</body>
+
+</html>

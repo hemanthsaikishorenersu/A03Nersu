@@ -1,0 +1,78 @@
+body{
+	background-image: url("http://www.psdgraphics.com/file/light-wooden-background.jpg"); 
+}
+#fieldset{
+	width: 350px;
+	border: 2px rigge #ff0000;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#footer{
+	text-align:center;
+	font-size: small;
+	font-style: italic;
+	margin-top: 30px;
+}
+#social{
+	text-align: center;
+	font-size: large;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+#sai21
+{
+text-align:bottom-left;
+margin-right: 25%;
+	
+}
+#sai20{
+	margin: 0%;
+		width: 250px;
+	height: 150px;
+
+}
+#sai11{
+	margin-top: 20px;
+	margin-right: 25%;
+}
+#sai22
+{ 
+	margin-top: 0%;
+	margin-left:30%;
+	padding:1px 1px;
+	text-align: center;
+}
+header{
+	font-size: 20px;
+}
